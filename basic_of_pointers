@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a=5;
+    int *ptr=&a;
+    cout<<"Address of a is : "<<ptr<<endl;
+    cout<<"value of a is : "<<a<<endl;
+
+    cout<<"Before incrementing : "<<a<<endl;
+    (*ptr)++;
+    cout<<"After (*ptr)++ : "<<a;
+    return 0;
+}
