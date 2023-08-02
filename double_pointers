@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int i=5;
+    int *p=&i;
+    int **p2=&p;
+
+    cout<<endl;
+    cout<<"Value of i : "<<i<<endl;
+    cout<<"Address of i : "<<&i<<endl;
+    cout<<endl;
+
+    cout<<"Value of p i.e address of i : "<<p<<endl;
+    cout<<"Value of *p i.e value at address of p i.e value of i : "<<*p<<endl;
+    cout<<endl;
+
+    cout<<"Address of p : "<<&p<<endl;
+    cout<<"Value of p2 i.e address of p : "<<p2<<endl;
+    cout<<"Value of *p2 i.e value at adress of p : "<<*p2<<endl;
+    cout<<"Value of **p2 i.e value at address that is value of *p  : "<<**p2<<endl;
+    cout<<endl;
+
+    return 0;
+}
