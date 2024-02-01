@@ -10,7 +10,6 @@ void update2(int &n)
 {
     n++;
 }
-
 int main()
 {
     int n=5;
